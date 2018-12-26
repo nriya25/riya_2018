@@ -1,0 +1,115 @@
+<!doctype HTML>
+<html>
+  <head lang="en-us">
+      <title>index</title>
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	  <link type="text/css" rel="stylesheet" href="home.css"/>
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
+<script type="text/javascript" src="js/jquery-3.2.1.js"></script><!-- Plz put this line before belowline. -->
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<link type="text/css" rel="stylesheet" href="home.css"/>
+	  <script>
+	 var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+
+	  </script>
+  </head>
+<body>
+ <header>
+   <div class="logo">logo</div>
+   <div class="menubar">
+	<ul>
+        <li><span><a href="#">Home</a></span></li>
+		<li><span><a href="#">Offers</a></span></li>
+		<li><span><a href="#">About Us</a></span></li>
+	 </ul>
+	 </div>
+	<div class="user_button">
+	<input type="button" id="login" value="LOG IN">
+	<input type="button" id="signup" value="SIGN UP">
+	</div>
+ </header>
+<div class="slider">
+<div class="carousel slide deco" data-ride="carousel" data-interval="3000" id="slider1">
+<div class="carousel-inner">
+<ol class="carousel-indicators">
+<li data-target="#slider1" data-slide-to="0" class="active"></li>
+<li data-target="#slider1" data-slide-to="1" class=""></li>
+<li data-target="#slider1" data-slide-to="2" class=""></li>
+</ol>
+
+<div class="item active">
+<img src="17.jpg">
+<div class="carousel-caption">
+<h1>This is first Slide</h1>
+<p>Conent for first caption</p>
+</div>
+</div><!-- End of item 1 -->
+<div class="item">
+<img src="13.jpg">
+<div class="carousel-caption">
+<h1>This is second Slide</h1>
+<p>Conent for second caption</p>
+</div>
+</div><!-- End of item 2 -->
+<div class="item">
+<img src="15.jpg">
+<div class="carousel-caption">
+<h1>This is third Slide</h1>
+<p>Conent for third caption</p>
+</div>
+</div><!-- End of item 3 -->
+</div>
+<a href="#slider1" class="left carousel-control" data-slide="prev">
+<span class="icon-prev"></span>
+</a>
+<a href="#slider1" class="right carousel-control" data-slide="next">
+<span class="icon-next"></span>
+
+</a>
+</div><!--End of carousel slide div -->
+</div>
+ <div class="reviews">
+   <div class="review">
+   <img src="images/review.jpg" alt="image not available plz set path of image first" width="100%">
+    <div class="star">
+   <span class="fa fa-star checked"></span>
+   <span class="fa fa-star checked"></span>
+   <span class="fa fa-star checked"></span>
+   <span class="fa fa-star"></span>
+   <span class="fa fa-star"></span>
+   </div>
+   </div>
+   <div class="ratings">
+   retings
+ </div></div>
+ <footer>footer</footer>
+ </body>
+</html>

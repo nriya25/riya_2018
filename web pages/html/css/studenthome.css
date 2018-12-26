@@ -1,0 +1,321 @@
+body
+ {
+	 width:100%;
+	 max-width:1200px;
+	 margin:0px;
+	 box-sizing:border-box;
+ }
+.logo
+ {
+	 margin:0px auto;
+	 width:100%;
+	 max-width:1200px;
+	 height:100%;
+	 max-height:100px;
+	 padding:0px;
+	 box-sizing:border-box;
+	 background:pink;
+ }
+ section
+  {
+	 margin:0px auto;
+	 width:100%;
+	 max-width:1200px;
+	 height:100%;
+	 max-height:1200px;	
+	 padding:0px;
+	 box-sizing:border-box;
+	 
+  }
+section .controls
+ {
+	 width:100%;
+	 max-width:1000px;
+	 height:1200px;
+	 display:inline-block;
+	 vertical-align:top;
+	 padding:0px;
+	 box-sizing:border-box;
+	 
+ }
+
+ .controls .mainmenu{
+     margin:0px auto;
+     width:100%;
+	 max-width:1000px;
+	 vertical-align:top;
+	 display:block;
+ }
+ .mainmenu
+    {
+      display:block;
+	}
+           .mainmenu ul
+            {
+	          margin:0px;
+              padding:0px;
+              list-style:none;	
+            }
+                
+				
+				 .mainmenu > ul > li
+                 {   
+                    margin:0px;
+	                display:inline-block;
+					box-sizing:border-box;
+	     
+                 }
+				 .mainmenu ul li ul
+				     {
+					   display:none;
+					   position:absolute;
+					 }
+				   .mainmenu ul li:hover ul
+				       {
+						 display:block;
+					   }
+				 
+			          .mainmenu ul li a
+                       {
+	                     text-decoration:none;
+	                     font-size:20px;
+						 width:125px;
+	                     color:#ffffff;
+	                     display:block;
+						 padding:10px 0px;
+	                     text-align:center;
+	                     font-variant:small-caps;
+						 background:#92c1ec;
+                       }
+					   .mainmenu > ul:hover li
+					     {
+							 color:#92c1ec;
+							 background:#ffffff;
+							 border-radius:10px;
+						 }
+					   .mainmenu ul > li:hover a
+					     {
+							 color:#92c1ec;
+							 background:#ffffff;
+							 border-radius:10px;
+						 }
+						  .mainmenu ul li > ul:hover a
+					        {
+							 color:#92c1ec;
+							 background:#ffffff;
+							 border-radius:10px;
+						    }
+                          /*.mainmenu ul li ul
+                            {
+	                          display:none;
+							  width:125px;
+							  margin:0px;
+							  padding:0px;
+	                          position:absolute;
+	                          background:#92c1ec;
+                            }
+                .mainmenu ul:hover > li:nth-child(1)
+                  {
+	                background:#ffffff;
+					border:1px solid black;
+					border-bottom-left-radius:10px;
+					border-top-right-radius:10px;
+                  }
+				
+				  .mainmenu ul li:hover > a
+					   {
+						 color:#92c1ec;   
+					   }    
+       					  .mainmenu ul li:hover > ul
+                            {
+	                           display:block;
+                            }*/
+.sidemenu
+ {
+	 width:100%;
+	 max-width:210px;
+	 height:100%;
+	 max-height:1145px;
+	 background:#92C1EC;
+	 margin:0px auto;
+	 padding:0px;
+	 box-sizing:border-box;
+	 display:inline-block;
+	 vertical-align:top;
+	 overflow-y:scroll;
+	 
+ }
+      .sidemenu > span
+        {
+	       font-size:26px;
+		   font-weight:bold;
+		   display:block;
+		   text-align:center;
+		   margin-top:15px;
+        }
+		  .sidemenu ul li span
+		    {
+				font-size:24px;
+                margin-left:10px;
+               				
+			}
+		    .sidemenu ul
+			  {
+				  margin:0px;
+				  padding:0px;
+				  list-style:none;
+			  }
+			     .sidemenu ul li
+				   {
+					   list-style:none;
+				   }
+				     .sidemenu ul li textarea
+					    {
+							font-size:18px;
+							border-radius:25px;
+							resize:none;
+							text-indent:10px;
+							display:block;
+							margin:0px auto;
+						}
+				      .sidemenu input[type="text"]
+					    {
+							margin:0px auto;
+							border-radius:10px;
+							
+						}
+						.sidemenu input[type="date"]
+						{
+							margin-left:25px;
+						}
+						.sidemenu input[type="textbox"]
+						{
+							font-size:14px;
+							border-radius:25px;
+							resize:none;
+							text-indent:10px;
+							display:block;
+							margin:5px auto;
+						}
+						input[list]
+						{
+							font-size:14px;
+							border-radius:25px;
+							resize:none;
+							text-indent:10px;
+							display:block;
+							margin:5px auto;
+						}
+.question
+ {
+	 width:100%;
+	 max-width:790px;
+	 height:1145px;
+	 background:#C3F2E8;
+	 padding:0px;
+	 box-sizing:border-box;
+	 display:inline-block;
+	 vertical-align:top;
+	 overflow-y:scroll;
+	
+ }
+ .add{}
+ section .add
+ {
+	 width:100%;
+	 max-width:200px;
+	 height:1187px;
+	 background-color:blue;
+	 display:inline-block;
+	 vertical-align:top;
+	 padding:0px;
+	 box-sizing:border-box;
+   
+ }
+ .question div
+  {
+	 margin:10px 4px 5px 4px;  
+  }
+#q
+  {
+	 display:block;
+  }
+.question textarea
+ {
+	 padding:0px 25px;
+	 resize:none;
+	 border-radius:45px;
+	 font-size:26px;
+	 border:none;
+ } 
+.question  #a
+ {
+     display:inline-block;
+ }
+ .question #b
+ {
+	 display:inline-block;
+ }
+ .question #c
+ {
+	 display:inline-block;
+ }
+ .question #d
+ {
+	 display:inline-block;
+ }
+ 
+ .question ul{margin:0px; padding:0px; list-style:none;}
+ .question ul li
+            {
+	          margin:0px;
+              padding:0px 5px;
+              list-style:none;	
+			  display:inline-block;
+			  float:right;
+            }
+                 .question ul li ul
+				     {
+					   display:none;
+					   position:absolute;
+					 }
+				   .question ul li:hover ul
+				       {
+						 display:block;
+					   }
+				 
+			          .question ul li a
+                       {
+	                      color:#000000;
+					   }
+					   .question input[type=text]
+					      {
+							 width:40px;
+							 border-radius:10px;
+							 border:solid 1px #000000;
+                              							 
+						  }
+.button{display:block;
+        text-align:center;
+       }
+input[type="button"]
+  {
+	  box-sizing:border-box;
+	  position:relative;
+	  margin:25px 2px;
+	  font-size:20px;
+	  background:#92c1ec;
+	  color:#ffffff;
+	  padding:15px 30px;
+	  border-radius:5px;
+	  box-shadow:5px 5px 10px;
+	  display:inline-block;
+  }
+  
+  
+@media (max-width:1200px){
+	section .add{display:none;}
+	section{max-width:1100px;margin:0px auto;}
+	
+	
+}
